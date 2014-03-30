@@ -1,0 +1,93 @@
+header,
+section,
+article,
+footer,
+aside,
+nav {
+  display: block;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Cardo', Helvetica, Arial, Geneva, serif;
+  color: #543b27;
+}
+a {
+  color: #256ec4;
+}
+p {
+  line-height: 140%;
+  margin-bottom: 10px;
+  font-weight: 400;
+}
+.clear {
+  clear: both;
+}
+div.photo-subtitle {
+  text-align: center;
+  font-size: 0.8em;
+  margin-top: 5px;
+}
+body {
+  font-family: 'Cardo', Helvetica, Arial, Geneva, serif;
+  font-weight: 400;
+  background-color: #d4b690;
+  color: #543b27;
+}
+body section {
+  background-color: #fcf4e9;
+}
+body section#header {
+  margin: 0;
+  padding: 0.5em 0;
+  background-color: #fcf4e9;
+  background-image: url('../img/volutes.png');
+  background-repeat: no-repeat;
+  background-position: top left;
+  font-family: 'Cinzel', Helvetica, Arial, Geneva, serif;
+}
+body section#header div.site-title {
+  text-align: center;
+  font-size: 3em;
+  border-bottom: 1px solid #543b27;
+  padding: 10px 0;
+}
+body section#header div.site-subtitle {
+  text-align: center;
+  font-size: 0.8em;
+  padding: 10px 0;
+}
+body section#nav .top-bar {
+  background-color: #d4b690;
+  color: #543b27;
+}
+body section#nav .top-bar .name h1 a {
+  color: #543b27;
+}
+body section#nav .top-bar .top-bar-section li:not(.has-form) a:not(.button) {
+  background-color: #d4b690;
+  color: #543b27;
+}
+body section#nav .top-bar .top-bar-section li:not(.has-form) a:hover:not(.button) {
+  background-color: #d4b690;
+  color: #fcf4e9;
+}
+body section#main {
+  padding: 40px 0;
+}
+body section#main .article {
+  margin-bottom: 30px;
+}
+body section#main li {
+  margin-bottom: 10px;
+}
+body section#footer {
+  background-color: #d4b690;
+  color: #fcf4e9;
+  margin: 0;
+  padding: 0.5em 0;
+}
+/*# sourceMappingURL=base.css.map */

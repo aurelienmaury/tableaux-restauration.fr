@@ -1,9 +1,83 @@
-{{<default}}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset=UTF-8>
+    <title>Vanités</title>
 
-{{$headline}}Vanités{{/headline}}
+    <link rel="stylesheet" href="css/foundation.min.css"/>
+    <script src="js/vendor/modernizr.js"></script>
 
-{{$body}}
-<div class="article">
+    <link href='http://fonts.googleapis.com/css?family=Cardo:400,700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Neuton:400,200,700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Cinzel:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/base.css" type="text/css">
+</head>
+<body>
+<section id="header">
+    <header class="row">
+        <div class="large-6 push-3 columns site-title">
+            Atelier maurY
+        </div>
+    </header>
+    <header class="row">
+        <div class="large-6 push-3 columns site-subtitle">
+            Restauration de Tableaux
+        </div>
+    </header>
+</section>
+
+<section id="nav">
+    <nav class="top-bar" data-topbar="data-topbar">
+        <ul class="title-area">
+            <!-- Title Area -->
+            <li class="name">
+                <h1>
+                    <a href="index.html">
+                        Accueil
+                    </a>
+                </h1>
+            </li>
+            <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
+        </ul>
+
+
+        <section class="top-bar-section">
+            <!-- Left Nav Section -->
+            <ul class="left">
+                <li>
+                    <a href="restauration.html">Restauration</a>
+                </li>
+                <li>
+                    <a href="conservation.html">Conservation</a>
+                </li>
+                <li class="has-dropdown not-click">
+                    <a href="#">Articles</a>
+                    <ul class="dropdown">
+                        <li><a href="saint-pierre.html">Saint Pierre</a></li>
+                        <li><a href="vanites.html">Vanités</a></li>
+                    </ul>
+                </li>
+
+            </ul>
+
+            <!-- Right Nav Section
+            <ul class="right">
+                <li>
+                    <a href="contact.html">Plus d'information</a>
+                </li>
+
+            </ul>
+            -->
+        </section></nav>
+
+</section>
+
+<section id="main">
+    <div class="row">
+        <div class="large-12 columns">
+            <h2 class="page-headline">Vanités</h2>
+            <div class="page-content">
+                <div class="article">
 
     <div class="row">
         <div class="large-9 columns">
@@ -88,5 +162,31 @@
     </div>
 </div>
 
-{{/body}}
-{{/default}}
+
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="footer">
+    <footer class="row">
+        <div class="large-4 columns">
+            <p>Alexandrine Maury</p>
+            <p>Directrice d'atelier</p>
+            <p>alexandrine.maury@gmail.com</p>
+        </div>
+        <div class="large-4 columns">
+        </div>
+        <div class="large-4 columns">
+        </div>
+    </footer>
+</section>
+
+<script src="js/vendor/jquery.js"></script>
+<script src="js/foundation.min.js"></script>
+<script>
+    $(document).foundation();
+</script>
+
+</body>
+</html>
