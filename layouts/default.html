@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+{{>shared/head}}
+<body>
+{{>shared/header}}
+{{>shared/nav}}
+<section id="main">
+    <div class="row">
+        <div class="large-12 columns">
+            <h2 class="page-headline">{{$headline}}$headline{{/headline}}</h2>
+            <div class="page-content">
+                {{$body}}$body{{/body}}
+            </div>
+        </div>
+    </div>
+</section>
+
+{{>shared/footer}}
+
+<script src="js/vendor/jquery.js"></script>
+<script src="js/foundation.min.js"></script>
+<script>
+    $(document).foundation();
+</script>
+
+</body>
+</html>
