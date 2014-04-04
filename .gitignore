@@ -4,3 +4,4 @@ _site/*
 *.ipr
 .idea
 target
+test
