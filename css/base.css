@@ -20,7 +20,7 @@ a {
 }
 p {
   line-height: 140%;
-  margin-bottom: 10px;
+  margin-bottom: 30px;
   font-weight: 400;
 }
 .clear {
@@ -89,5 +89,8 @@ body section#footer {
   color: #fcf4e9;
   margin: 0;
   padding: 0.5em 0;
+}
+body section#footer p {
+  margin-bottom: 10px;
 }
 /*# sourceMappingURL=base.css.map */
