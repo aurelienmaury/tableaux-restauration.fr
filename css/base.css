@@ -37,14 +37,23 @@ body {
   background-color: #d4b690;
   color: #543b27;
 }
-body div.galerie div {
+body div.galerie {
+  border-left: 1px solid #543b27;
+  border-right: 1px solid #543b27;
+}
+body div.galerie img {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  height: 350px;
+}
+body div.galerie .galerie-label {
+  padding-top: 10px;
   text-align: center;
 }
-body div.galerie div img {
-  height: 350px;
+body div.galerie .slick-prev:before,
+body div.galerie .slick-next:before {
+  color: #543b27;
 }
 body section {
   background-color: #fcf4e9;
