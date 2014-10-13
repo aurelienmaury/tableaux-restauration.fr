@@ -1,6 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!--[if lt IE 9]>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.6.2/html5shiv.js"></script>
+    <script src="http://s3.amazonaws.com/nwapi/nwmatcher/nwmatcher-1.2.5-min.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/selectivizr/1.0.2/selectivizr-min.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/respond.js/1.1.0/respond.min.js"></script>
+    <![endif]-->
+
     <meta charset=UTF-8>
     <title>Atelier Maury - Restauration d'oeuvres d'art</title>
 
@@ -16,6 +23,36 @@
     <link rel="stylesheet" href="slick/slick.css" type="text/css" />
 </head>
 <body>
+
+<!--[if (IE)&(lt IE 9)]>
+<center>
+
+<h1>Votre navigateur est obsolète.</h1>
+
+<p>
+Nous sommes navrés de vous informer que ce site est réservé aux
+utilisateurs de Internet Explorer 9 ou plus, et autres navigateurs
+modernes.
+</p>
+
+<p>
+<a href="http://blogs.technet.com/b/msrc/archive/2013/05/03/microsoft-releases-security-advisory-2847140.aspx">Avertissement
+ de sécurité aux utilisateurs d'Internet Explorer < 9</a>
+<p>
+
+<p>Nous vous invitons à mettre à jour votre version d'Internet
+  Explorer<br>
+ou à utiliser un autre navigateur plus moderne :</p>
+
+<a href="https://www.mozilla.org/fr/firefox/new/">Firefox</a>
+- <a href="https://www.google.fr/chrome/browser/">Chrome</a>
+- <a href="http://www.opera.com/fr">Opera</a>
+
+</center>
+
+<![endif]-->
+
+<![if (!IE)&(gte IE 9)]>
 <section id="header">
     <header class="row">
         <div class="large-6 push-3 columns site-title">
@@ -52,6 +89,9 @@
                 </li>
                 <li>
                     <a href="conservation.html">Conservation</a>
+                </li>
+                <li>
+                    <a href="galerie.html">Galerie</a>
                 </li>
                 <li class="has-dropdown not-click">
                     <a href="#">Iconographie</a>
@@ -125,6 +165,7 @@
     </footer>
 </section>
 
+<script src="js/rem.min.js"></script>
 
 <script src="js/vendor/jquery-1.11.1.min.js"></script>
 <script src="js/foundation.min.js"></script>
@@ -140,6 +181,7 @@
         });
     });
 </script>
+<![endif]>
 
 </body>
 </html>
