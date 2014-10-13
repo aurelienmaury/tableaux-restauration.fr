@@ -2,6 +2,12 @@
 <html lang="en">
 {{>shared/head}}
 <body>
+
+<!--[if (IE)&(lt IE 9)]>
+{{>shared/browser_alert}}
+<![endif]-->
+
+<![if (!IE)&(gte IE 9)]>
 {{>shared/header}}
 {{>shared/nav}}
 <section id="main">
@@ -16,6 +22,7 @@
 </section>
 
 {{>shared/footer}}
+<script src="js/rem.min.js"></script>
 
 <script src="js/vendor/jquery-1.11.1.min.js"></script>
 <script src="js/foundation.min.js"></script>
@@ -31,6 +38,7 @@
         });
     });
 </script>
+<![endif]>
 
 </body>
 </html>
